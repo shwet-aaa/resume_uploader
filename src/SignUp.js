@@ -87,15 +87,16 @@ function Signup() {
 
   return (
     <section className=" ">
-      <div className="text-5xl overflow-hidden items-center text-center font-bold mt-5 ">
-        <h1 className="whitespace-nowrap border-r-4 border-black inline-block animate-reveal text-gradient">
-          Please Signup first to upload your resume
-        </h1>
-      </div>
+     <div className="text-xl sm:text-2xl md:text-4xl lg:text-5xl flex items-center justify-center font-bold mt-5 px-2 sm:px-4">
+  <h1 className="border-r-4 border-black inline-block animate-reveal text-gradient text-center max-w-full overflow-hidden">
+    Please Signup first to upload your resume
+  </h1>
+</div>
+
       <div className="flex rounded-2xl my-14 mx-auto shadow-lg max-w-5xl lg:p-5 items-center">
         <div className="lg:w-1/2 w-full p-3 text-customStart">
-          <h2 className="text-4xl text-center">SignUp</h2>
-          <p className="text-center text-sm mt-1">Create your account</p>
+          <h2 className="text-4xl text-center font-semibold">SignUp</h2>
+          <p className="text-center text-sm mt-1 font-semibold">Create your account</p>
           {message && <p className="text-center mt-2 text-green-600">{message}</p>}
           <form onSubmit={handleSubmit} className="flex flex-col gap-4 mt-6 p-2">
             <div className="grid gap-4">
@@ -143,7 +144,7 @@ function Signup() {
               </div>
             </div>
             <div className="mt-3 mb-0">
-              <button className="rounded-xl w-full bg-buttoncolor py-3 text-center text-xl hover:bg-#ffb800 hover:scale-100 duration-300">
+              <button className="rounded-xl w-full bg-blue-500 text-gray-50 py-3 text-center text-xl hover:bg-#ffb800 hover:scale-100 duration-300 font-semibold">
                 SignUp
               </button>
             </div>

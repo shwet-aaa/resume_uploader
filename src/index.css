@@ -4,7 +4,7 @@
 
 
 .text-gradient {
-    background: linear-gradient(to right, #1b263b, #415a77, #778da9); /* Your gradient colors */
+    background: linear-gradient(to right, #3f37c9, #4361ee, #4895ef); /* Your gradient colors */
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
